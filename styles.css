@@ -5,14 +5,10 @@
 }
 
 html {
-    background-color: gray;
+    background-color: rgb(168, 168, 168);
     font-family: 'Roboto Mono', sans-serif;
     font-weight: normal;
 }
-
-/* body {
-    overflow-y: hidden;
-} */
 
 #header-img {
     width: 100%;
@@ -60,6 +56,27 @@ li, li a {
 #hero h2 {
     margin-top: 17px;
     word-wrap: break-word;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid {
+    border: 2px solid blue;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
 }
 
 @media only screen and (max-width: 768px){
