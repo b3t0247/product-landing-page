@@ -8,20 +8,19 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <div class="wrapper">
+        <div id="home">
             <header id="header">
                 <div class="logo">
                     <img src="./images/fcc_primary_large.jpg" alt="Logo" id="header-img">
                 </div>
                 <nav id="nav-bar">
                     <ul>
-                        <li><a href="#home" class="nav-link"></a>Home</li>
-                        <li><a href="#about" class="nav-link"></a>About</li>
-                        <li><a href="#contact" class="nav-link"></a>Contact</li>
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="https://forum.freecodecamp.org/" class="nav-link">Forum</a></li>
                     </ul>
                 </nav>
             </header>
-            <div></div>
             <section id="hero">
                 <h2>Welcome to freeCodeCamp.org</h2>
                 <form action="https://www.freecodecamp.com/email-submit" id="form">
@@ -29,10 +28,27 @@
                     <input type="submit" id="submit" value="Get started  (It's free)">
                 </form>
             </section>
-            <section>
-                <video src="#" id="video"></video>
+            <section id="about">
+                <p>
+                    freeCodeCamp is a donor-supported tax-exempt 501(c)(3) nonprofit organization (United States Federal Tax Identification Number: 82-0779546)
+                </p>
+                <p>
+                    Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.
+                </p>
+                <p>
+                    Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.
+                </p>
             </section>
-            <footer id="footer"></footer>
+            <section>
+                <video src="https://www.youtube.com/watch?v=jS4aFq5-91M&t=1s" id="video"></video>
+            </section>
+            <footer id="footer">
+                <ul>
+                    <li><a href="#home" class="nav-link">Privacy</a></li>
+                    <li><a href="#home" class="nav-link">Terms</a></li>
+                    <li><a href="#home" class="nav-link">Contact</a></li>
+                </ul>
+            </footer>
         </div>
     </body>
 </html>
