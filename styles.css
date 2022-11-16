@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: rgba(0,46,173,.3);;
+    background-color: gray;;
     color: #fff;
 }
 
@@ -16,27 +16,9 @@ html {
     max-height: 50px;
 }
 
-#hero {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 200px;
-    margin-top: 70px;
-}
-
-#hero h2 {
-    /* border: 2px solid blue; */
-    margin-top: 20px;
-    word-wrap: break-word;
-    border-bottom: 3px solid black;
-
-}
-
 header {
     position: fixed;
-    background-color: #0a0a23;
+    background-color: #615C5B;
     width: 100%;
     top: 0;
     min-height: 70px;
@@ -60,6 +42,24 @@ li {
 li a {
     text-decoration: none;
     color: #fff;
+}
+
+#hero {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 70px;
+}
+
+#hero h2 {
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    word-wrap: break-word;
+    border-bottom: 3px solid black;
+
 }
 
 @media (max-width: 600px){
