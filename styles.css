@@ -10,6 +10,10 @@ html {
     font-weight: normal;
 }
 
+/* body {
+    overflow-y: hidden;
+} */
+
 #header-img {
     width: 100%;
     height: 100%;
@@ -27,13 +31,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    word-wrap: break-word;
 }
 
 nav ul {
     width: 35vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 li, li a {
@@ -53,12 +58,11 @@ li, li a {
 }
 
 #hero h2 {
-    /* border: 2px solid blue; */
-    margin-top: 20px;
+    margin-top: 17px;
     word-wrap: break-word;
 }
 
-@media (max-width: 500px){
+@media only screen and (max-width: 768px){
     li , li a {
         font-size: 10px;
     }
