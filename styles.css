@@ -5,7 +5,7 @@
 }
 
 html {
-    /* background-color: rgb(168, 168, 168); */
+    background-color: rgb(168, 168, 168);
     font-family: 'Roboto Mono', sans-serif;
     font-weight:normal;
 }
@@ -84,8 +84,10 @@ hr {
 }
 
 .icon {
-    display: flex;
-    border: 2px solid blue;
+    /* display: flex; */
+    /* border: 2px solid blue; */
+    /* width: 100px; */
+    /* height: 200px; */
     /* width: 100px; */
     /* height: 100px; */
 }
@@ -95,7 +97,7 @@ hr {
     flex-direction: row;
     /* margin: 10px; */
     /* flex-direction: row; */
-    /* justify-content: space-around; */
+    justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 768px){
