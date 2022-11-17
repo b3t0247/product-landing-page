@@ -5,9 +5,9 @@
 }
 
 html {
-    background-color: rgb(168, 168, 168);
+    /* background-color: rgb(168, 168, 168); */
     font-family: 'Roboto Mono', sans-serif;
-    font-weight: normal;
+    font-weight:normal;
 }
 
 #header-img {
@@ -49,8 +49,10 @@ li, li a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 200px;
+    /* height: 200px; */
     margin-top: 70px;
+    /* margin-bottom: 70px; */
+    padding: 10px 30px 40px 10px;
 }
 
 #hero h2 {
@@ -65,22 +67,48 @@ li, li a {
     align-items: center;
 }
 
-#features {
-    border: 2px solid red;
+hr {
+    border: 1px solid rgb(122, 121, 121);
+    width: 100%;
+}
+
+#features, .description {
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: stretch;
+    /* height: 25px; */
+    width: 80vw;
+    padding: 10px;
+}
+
+.icon {
+    display: flex;
+    border: 2px solid blue;
+    /* width: 100px; */
+    /* height: 100px; */
 }
 
 .grid {
-    border: 2px solid blue;
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
     /* flex-direction: row; */
-    /* justify-content: center; */
+    /* justify-content: space-around; */
 }
 
 @media only screen and (max-width: 768px){
+    
     li , li a {
         font-size: 10px;
+    }
+
+    #features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
